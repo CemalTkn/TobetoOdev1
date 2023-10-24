@@ -16,10 +16,12 @@ namespace TypesAndVariables
             short number3 = 32767;
             byte number4 = 255;
             bool condition = true;
+            char character = 'A';
             Console.WriteLine("Number1 is {0}", number1);
             Console.WriteLine("Number2 is {0}", number2);
             Console.WriteLine("Number3 is {0}", number3);
             Console.WriteLine("Number4 is {0}", number4);
+            Console.WriteLine("Character is : {0}",(int) character);
             Console.ReadLine();
         }
     }

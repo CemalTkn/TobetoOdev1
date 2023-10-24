@@ -15,6 +15,7 @@ namespace TypesAndVariables
             long number2 = 9223372036854775807;
             short number3 = 32767;
             byte number4 = 255;
+            bool condition = true;
             Console.WriteLine("Number1 is {0}", number1);
             Console.WriteLine("Number2 is {0}", number2);
             Console.WriteLine("Number3 is {0}", number3);

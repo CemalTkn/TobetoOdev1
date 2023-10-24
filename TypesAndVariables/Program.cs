@@ -19,6 +19,9 @@ namespace TypesAndVariables
             char character = 'A';
             double number5 = 10.4;
             decimal number6 = 10.4M;
+            var number7 = 10;//Hangi veri tipini tanımlarsak o olur.
+            number7 = 'A';
+            //number7 = "A"; Yapamayız.
 
             Console.WriteLine("Number1 is {0}", number1);
             Console.WriteLine("Number2 is {0}", number2);
@@ -28,6 +31,7 @@ namespace TypesAndVariables
             Console.WriteLine("Number5 is {0}", number5);
             Console.WriteLine("Number6 is {0}", number6);
             Console.WriteLine((int)Days.Friday);
+            Console.WriteLine("Number7 is {0}", number7);
             Console.ReadLine();
         }
     }

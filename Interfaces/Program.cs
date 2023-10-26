@@ -11,14 +11,26 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
+
+            //InterfacesIntro();
+
+            CustomerManager customerManager = new CustomerManager();
+            customerManager.Add(new OracleCustomerDal());
+
+            Console.ReadLine();
+        }
+
+        private static void InterfacesIntro()
+        {
             PersonManager manager = new PersonManager();
 
-            Customer customer =  new Customer
-            {   Id = 1,
+            Customer customer = new Customer
+            {
+                Id = 1,
                 FirstName = "Cemal",
                 LastName = "Taşkın",
                 Address = "İstanbul"
-            };          
+            };
 
             Student student = new Student
             {
@@ -26,14 +38,14 @@ namespace Interfaces
                 FirstName = "İdil",
                 LastName = "Taşkın",
                 Department = "Computer Science"
-            };   
+            };
 
             manager.Add(student);
-            manager.Add(customer);            
-
-            Console.ReadLine();
+            manager.Add(customer);
         }
     }
+
+   
 
     interface IPerson 
     {

@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PairUygulaması", "Intro\Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReCapDemo1", "ReCapDemo1\ReCapDemo1.csproj", "{831739F9-639C-468C-B346-B5C4B26F5738}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{D15FD3CC-FCC6-458D-AFA2-4B484D854222}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{831739F9-639C-468C-B346-B5C4B26F5738}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{831739F9-639C-468C-B346-B5C4B26F5738}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{831739F9-639C-468C-B346-B5C4B26F5738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D15FD3CC-FCC6-458D-AFA2-4B484D854222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15FD3CC-FCC6-458D-AFA2-4B484D854222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15FD3CC-FCC6-458D-AFA2-4B484D854222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D15FD3CC-FCC6-458D-AFA2-4B484D854222}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
